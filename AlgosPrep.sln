@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgosPrep", "AlgosPrep\AlgosPrep.csproj", "{966A33D6-328C-42FE-A186-B70A05897860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgosPrep.Test", "AlgosPrep.Test\AlgosPrep.Test.csproj", "{953B6BF7-6604-4B90-B941-B43981B07DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{966A33D6-328C-42FE-A186-B70A05897860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966A33D6-328C-42FE-A186-B70A05897860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966A33D6-328C-42FE-A186-B70A05897860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966A33D6-328C-42FE-A186-B70A05897860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953B6BF7-6604-4B90-B941-B43981B07DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953B6BF7-6604-4B90-B941-B43981B07DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953B6BF7-6604-4B90-B941-B43981B07DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953B6BF7-6604-4B90-B941-B43981B07DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D092DDD0-1AB5-46D2-B8F7-859BBC172538}
+	EndGlobalSection
+EndGlobal
