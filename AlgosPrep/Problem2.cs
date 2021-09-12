@@ -2,15 +2,28 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algo
+namespace AlgosPrep
 {
-    class Problem2
+    public class Problem2
     {
         public static bool IsValidSubsequence(List<int> array, List<int> sequence)
         {
-            // Write your code here.
+            int seqIdx = 0;
 
-            return false;
+            foreach(var val in array)
+            {
+                if(seqIdx == sequence.Count)
+                {
+                    break;
+                }
+
+                if (sequence[seqIdx] == val)
+                {
+                    seqIdx++;
+                }
+            }
+
+            return seqIdx == sequence.Count;
         }
     }
 }
